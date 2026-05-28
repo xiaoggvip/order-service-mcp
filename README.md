@@ -78,10 +78,12 @@ npm start
 ```json
 {
   "mcpServers": {
-    "点餐助手": {
+    "order-service-mcp": {
       "command": "node",
-      "args": ["d:/www/hc/ai/mcp/server.js"],
-      "cwd": "d:/www/hc/ai/mcp"
+      "args": ["server.js"],
+      "env": {
+		"key":"value"
+	  }
     }
   }
 }
