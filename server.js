@@ -188,3 +188,5 @@ server.start({
 });
 
 logger.info('MCP服务已启动，使用stdio模式');
+
+export default server;

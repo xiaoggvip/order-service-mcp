@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "MCP服务实现与第三方服务API对接，支持智慧点单功能",
   "main": "server.js",
+  "bin": {
+    "mcp-order-service": "./bin/cli.js"
+  },
   "type": "module",
   "scripts": {
     "start": "node server.js",
@@ -17,5 +20,13 @@
   "devDependencies": {
     "dotenv": "^16.3.1",
     "nodemon": "^3.0.1"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "server.js",
+    "utils/**",
+    "bin/**"
+  ]
 }
