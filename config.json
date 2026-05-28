@@ -1,0 +1,8 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "description": "支持AI订单分析、订单创建和支付状态查询的MCP服务",
+  "transport": "stdio",
+  "runtime": "node",
+  "entry": "server.js"
+}
