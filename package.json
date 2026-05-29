@@ -1,11 +1,9 @@
 {
   "name": "order-service-mcp-xiaoggvip",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "MCP服务实现与第三方服务API对接，支持智慧点单功能",
   "main": "server.js",
-  "bin": {
-    "order-service-mcp-xiaoggvip": "./bin/cli.js"
-  },
+  "bin": "bin/cli.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
