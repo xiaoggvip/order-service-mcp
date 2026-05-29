@@ -7,6 +7,4 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 config({ path: resolve(__dirname, '../.env') });
 
-process.chdir(resolve(__dirname, '..'));
-
-const { default: server } = await import('../server.js');
+await import('../server.js');

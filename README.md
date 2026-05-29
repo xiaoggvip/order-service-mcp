@@ -80,10 +80,7 @@ npm start
   "mcpServers": {
     "order-service-mcp": {
       "command": "node",
-      "args": ["server.js"],
-      "env": {
-		"key":"value"
-	  }
+      "args": ["server.js"]
     }
   }
 }
